@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: fastapi
-          image: yillkid/docker-fastapi:32cff08098bcb5abe1d6e2f56e3deef27a689f8a
+          image: yillkid/docker-fastapi:5c41dec0e75a53553333e1e3f8e8795552386137
           imagePullPolicy: Always
           ports:
             - containerPort: 8000
